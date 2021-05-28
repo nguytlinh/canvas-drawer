@@ -67,6 +67,8 @@ namespace agl
       ppm_pixel interTri(ppm_pixel c1, ppm_pixel c2, ppm_pixel c3,
                              float alpha, float beta, float gamma);
 
+      //draw rectangle
+      void drawRec(int cenx, int ceny, int w, int h);
    };
 }
 

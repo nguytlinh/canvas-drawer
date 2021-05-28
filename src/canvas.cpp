@@ -189,3 +189,14 @@ ppm_pixel canvas::interTri(ppm_pixel c1, ppm_pixel c2, ppm_pixel c3,
     return ppm_pixel{ red,green,blue };
 }
 
+void canvas::drawRec(int cenx, int ceny, int w, int h) {
+    Point top_right = { cenx + w / 2.0, ceny + h / 2.0, _color };
+    Point top_left = { cenx - w / 2.0, ceny + h / 2.0, _color };
+    Point bot_left = { cenx - w/2.0, ceny - h/2.0, _color };
+    Point bot_right = { cenx + w/2.0, ceny - h/2.0, _color };
+
+    drawLine(bot_left, bot_right);
+    drawLine(bot_left, top_left);
+    drawLine(top_left, top_right);
+    drawLine(bot_right, top_right);
+}
