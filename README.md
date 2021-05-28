@@ -57,6 +57,6 @@ TODO: Document the custom primitives supported by your canvas class
 ![triangle](https://user-images.githubusercontent.com/75322388/119922213-60085080-bf3d-11eb-8610-7ca3d5743402.png)
 ![vertical-line](https://user-images.githubusercontent.com/75322388/119922214-60085080-bf3d-11eb-8497-8916860eb62c.png)
 
-<br/> Simple unique image rendered
+<br/> Simple unique image rendered, attempted to create a pyramid-like, color blended 2D image
 ![arttest](https://user-images.githubusercontent.com/75322388/119922238-6a2a4f00-bf3d-11eb-9ba9-db983bb05c2d.png)
 
